@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-/* import CartWidget from "../../components/CartWidget/CartWidget"; */
+import CartWidget from "../../components/CartWidget/CartWidget"; 
 
 
 function NavScroll() {
@@ -27,7 +27,7 @@ function NavScroll() {
             <NavDropdown.Item href="#action8">Vodka</NavDropdown.Item>
             
             </NavDropdown>
-            
+            <CartWidget/>
         </Nav>
         </Navbar.Collapse>
         
